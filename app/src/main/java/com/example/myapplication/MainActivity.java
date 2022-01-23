@@ -93,6 +93,10 @@ public class MainActivity extends AppCompatActivity{
         ///sds
 
     }
+    public void newFunction3(){
+        ///sds
+
+    }
 //With Handler
 /*
    @Override
