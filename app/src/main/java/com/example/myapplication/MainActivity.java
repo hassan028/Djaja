@@ -113,52 +113,52 @@ public class MainActivity extends AppCompatActivity{
 
 //With CountDownTimer
 
-    @Override
-    public void onBackPressed() {
-
-        if(getSingleClick()){
-            super.onBackPressed();
-            return;
-        }
-        setSingleClick(true);
-        Toast.makeText(MainActivity.this,"Press again to exit!",Toast.LENGTH_SHORT).show();
-        new CountDownTimer(0,1000){
-            @Override
-            public void onTick(long millisUntilFinished) {
-            }
-
-            @Override
-            public void onFinish() {
-                //Toast.makeText(MainActivity.this,"Fin", Toast.LENGTH_SHORT).show();
-                setSingleClick(false);
-            }
-        }.start();
-    }
+//    @Override
+//    public void onBackPressed() {
+//
+//        if(getSingleClick()){
+//            super.onBackPressed();
+//            return;
+//        }
+//        setSingleClick(true);
+//        Toast.makeText(MainActivity.this,"Press again to exit!",Toast.LENGTH_SHORT).show();
+//        new CountDownTimer(0,1000){
+//            @Override
+//            public void onTick(long millisUntilFinished) {
+//            }
+//
+//            @Override
+//            public void onFinish() {
+//                //Toast.makeText(MainActivity.this,"Fin", Toast.LENGTH_SHORT).show();
+//                setSingleClick(false);
+//            }
+//        }.start();
+//    }
 
 
 
 //With TimerTask
 
-    public void onBackPressed() {
-
-        if(getSingleClick()){
-            super.onBackPressed();
-            return;
-        }
-        Toast.makeText(MainActivity.this,"Press again to exit!",Toast.LENGTH_SHORT).show();
-
-        Timer timer=new Timer();
-        setSingleClick(true);
-
-        TimerTask timerTask=new TimerTask() {
-            @Override
-            public void run() {
-                setSingleClick(false);
-            }
-        };
-
-        timer.schedule(timerTask,3000);
-    }
+//    public void onBackPressed() {
+//
+//        if(getSingleClick()){
+//            super.onBackPressed();
+//            return;
+//        }
+//        Toast.makeText(MainActivity.this,"Press again to exit!",Toast.LENGTH_SHORT).show();
+//
+//        Timer timer=new Timer();
+//        setSingleClick(true);
+//
+//        TimerTask timerTask=new TimerTask() {
+//            @Override
+//            public void run() {
+//                setSingleClick(false);
+//            }
+//        };
+//
+//        timer.schedule(timerTask,3000);
+//    }
 
 
 //With System.getTimeInMillis()
