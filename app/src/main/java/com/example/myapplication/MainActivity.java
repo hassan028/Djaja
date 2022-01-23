@@ -87,7 +87,7 @@ public class MainActivity extends AppCompatActivity{
     }
 
     public void newFunction(){
-
+            // Finaly i changed
     }
 //With Handler
 /*
