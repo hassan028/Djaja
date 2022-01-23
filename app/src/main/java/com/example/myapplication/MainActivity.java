@@ -89,6 +89,9 @@ public class MainActivity extends AppCompatActivity{
     public void newFunction(){
             // Finaly i changed
     }
+    public void newFunction2(){
+
+    }
 //With Handler
 /*
    @Override
