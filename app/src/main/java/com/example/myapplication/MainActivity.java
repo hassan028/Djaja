@@ -94,7 +94,7 @@ public class MainActivity extends AppCompatActivity{
 
     }
     public void newFunction3(){
-        ///sds
+        ///sdsh
 
     }
 //With Handler
