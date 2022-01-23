@@ -90,6 +90,7 @@ public class MainActivity extends AppCompatActivity{
             // Finaly i changed
     }
     public void newFunction2(){
+        ///sds
 
     }
 //With Handler
