@@ -86,7 +86,9 @@ public class MainActivity extends AppCompatActivity{
         Toast.makeText(MainActivity.this,"Activity Destroyed", Toast.LENGTH_LONG).show();
     }
 
-
+    public void newFunction(){
+        // new function
+    }
 //With Handler
 /*
    @Override
