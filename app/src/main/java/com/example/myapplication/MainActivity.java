@@ -87,8 +87,7 @@ public class MainActivity extends AppCompatActivity{
     }
 
     public void newFunction(){
-        // new function
-        // new funcitongdfgd.
+
     }
 //With Handler
 /*
